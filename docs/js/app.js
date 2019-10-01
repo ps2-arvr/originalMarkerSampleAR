@@ -71,7 +71,7 @@ function onResize(){
 var marker1 = new THREE.Group();                      // マーカをグループとして作成
 var controls = new THREEx.ArMarkerControls(context, marker1, {    // マーカを登録
   type: "pattern",                                    // マーカのタイプ
-  patternUrl: "./data/kanji.patt",                            // マーカファイル
+  patternUrl: "./data/pattern-exeo.patt",                            // マーカファイル
 });
 scene.add(marker1);                                   // マーカをシーンに追加
 // モデル（メッシュ）
