@@ -93,7 +93,7 @@ marker1.add(mesh1);                                   // メッシュをマーカに追加
 var marker2 = new THREE.Group();                      // マーカをグループとして作成
 var controls = new THREEx.ArMarkerControls(context, marker2, {    // マーカを登録
   type: "pattern",                                    // マーカのタイプ
-  patternUrl: "./data/pattern-exeo.patt",                           // マーカファイル
+  patternUrl: "./data/pattern-qr_code.patt",                           // マーカファイル
 });
 scene.add(marker2);                                   // マーカをシーンに追加
 // モデル（メッシュ）
