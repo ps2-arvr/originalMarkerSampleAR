@@ -20,6 +20,10 @@ scene.add(light);                                     // シーンに光源を追加
 var ambientlight = new THREE.AmbientLight(0x888888);
 scene.add(ambientlight);
 
+var param = location.search
+
+alert(param)
+
 //===================================================================
 // arToolkitSource（マーカトラッキングするメディアソース）
 //===================================================================
