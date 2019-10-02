@@ -1,2 +1,2 @@
 # originalMarkerSampleAR
-use original armarker sample.
+original armarker sample.
