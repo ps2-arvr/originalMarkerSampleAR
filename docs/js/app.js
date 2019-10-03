@@ -40,7 +40,7 @@ source.init(function onReady() {                      // ƒ\[ƒX‚ğ‰Šú‰»‚µA€”õ‚
 var context = new THREEx.ArToolkitContext({           // arToolkitContext‚Ìì¬
   debug: false,                                       // ƒfƒoƒbƒO—pƒLƒƒƒ“ƒoƒX•\¦iƒfƒtƒHƒ‹ƒgfalsej
   cameraParametersUrl: "./data/camera_para.dat",             // ƒJƒƒ‰ƒpƒ‰ƒ[ƒ^ƒtƒ@ƒCƒ‹
-  detectionMode: "mono",                              // ŒŸoƒ‚[ƒhicolor/color_and_matrix/mono/mono_and_matrixj
+  detectionMode: "color",                              // ŒŸoƒ‚[ƒhicolor/color_and_matrix/mono/mono_and_matrixj
   imageSmoothingEnabled: true,                        // ‰æ‘œ‚ğƒXƒ€[ƒWƒ“ƒO‚·‚é‚©iƒfƒtƒHƒ‹ƒgfalsej
   maxDetectionRate: 60,                               // ƒ}[ƒJ‚ÌŒŸoƒŒ[ƒgiƒfƒtƒHƒ‹ƒg60j
   canvasWidth: source.parameters.sourceWidth,         // ƒ}[ƒJŒŸo—p‰æ‘œ‚Ì•iƒfƒtƒHƒ‹ƒg640j
@@ -97,7 +97,7 @@ marker1.add(mesh1);                                   // ƒƒbƒVƒ…‚ğƒ}[ƒJ‚É’Ç‰Á
 var marker2 = new THREE.Group();                      // ƒ}[ƒJ‚ğƒOƒ‹[ƒv‚Æ‚µ‚Äì¬
 var controls = new THREEx.ArMarkerControls(context, marker2, {    // ƒ}[ƒJ‚ğ“o˜^
   type: "pattern",                                    // ƒ}[ƒJ‚Ìƒ^ƒCƒv
-  patternUrl: "./data/pattern-qr_code.patt",                           // ƒ}[ƒJƒtƒ@ƒCƒ‹
+  patternUrl: "./data/pattern-exeo_white.patt",                           // ƒ}[ƒJƒtƒ@ƒCƒ‹
 });
 scene.add(marker2);                                   // ƒ}[ƒJ‚ğƒV[ƒ“‚É’Ç‰Á
 // ƒ‚ƒfƒ‹iƒƒbƒVƒ…j
