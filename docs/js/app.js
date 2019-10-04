@@ -20,10 +20,6 @@ scene.add(light);                                     // シーンに光源を追加
 var ambientlight = new THREE.AmbientLight(0x888888);
 scene.add(ambientlight);
 
-var param = location.search
-
-alert(param)
-
 //===================================================================
 // arToolkitSource（マーカトラッキングするメディアソース）
 //===================================================================
@@ -42,7 +38,7 @@ var context = new THREEx.ArToolkitContext({           // arToolkitContextの作成
   cameraParametersUrl: "./data/camera_para.dat",             // カメラパラメータファイル
   detectionMode: "color",                              // 検出モード（color/color_and_matrix/mono/mono_and_matrix）
   imageSmoothingEnabled: true,                        // 画像をスムージングするか（デフォルトfalse）
-  maxDetectionRate: 60,                               // マーカの検出レート（デフォルト60）
+  maxDetectionRate: 20,                               // マーカの検出レート（デフォルト60）
   canvasWidth: source.parameters.sourceWidth,         // マーカ検出用画像の幅（デフォルト640）
   canvasHeight: source.parameters.sourceHeight,       // マーカ検出用画像の高さ（デフォルト480）
 });
